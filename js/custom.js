@@ -1,8 +1,6 @@
 const modalElement = document.querySelector('.modal');
 const offerItemElements = document.querySelectorAll('.offer__item');
 
-console.log(offerItemElements);
-
 offerItemElements.forEach((element) => {
   const title = element.querySelector('.offer__title').innerHTML;
   const content = element.querySelector('.offer__truncate').innerHTML;
